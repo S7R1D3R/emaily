@@ -30,4 +30,4 @@ app.use(passport.session());
 // Authentication Routes
 require("./routes/authRoutes")(app);
 
-app.listen(3000, () => console.log("Server started..."));
+app.listen(5000, () => console.log("Server started..."));
